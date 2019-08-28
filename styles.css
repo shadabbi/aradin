@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.social-bg{
+    background:#00baf3;
+}
+
+.social li{
+    list-style: none;
+    font-size: 13px;
+    color:white;
+}
+
+ul{
+    margin:0;
+}
+
+.logo{
+    padding:1em;
+}
+
+.home{
+    background: #00baf3;
+    color: white;
+}
+.navul li{
+    padding:1.44em;
+    list-style: none;
+    
+}
+
+.navul li:hover{
+    background: #00baf3;
+}
+
+.navul li:hover a{
+    color:white;
+}
+
+.navul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.header-bg{
+    background: url(img/header-bg.png);
+    min-height: 70vh;
+    background-position: center;
+    position: relative;
+}
+
+#header-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+#top-destinations .card{
+    background: #00baf3;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#top-destinations .card:hover img{
+    opacity:0.3;
+    filter: grayscale(100%);
+}
+
+#top-destinations .card:hover{
+    color:white;
+}
+
+
+.destination-list li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.register-btn{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:scale(0);
+}
+
+#top-destinations .card *{
+    transition: all .35s ease-in-out;
+}
+
+#top-destinations .card:hover .register-btn{
+    transform: translate(-50%,-50%) scale(1);
+}
+#features{
+    background: url(img/features.png);
+    background-position: center;
+}
+
+
+#features img{
+    border:2px dotted #8c8c8c;
+}
+
+#features .badge-position{
+    position: relative;
+}
+
+#features .imgbadge{
+    position: absolute;
+    top:10px;
+    right:90px;
+    background: #00baf3;
+    padding: 10px;
+}
+
+#features img:hover {
+    transform: scale(1.1);
+}
+
+#tetimonials{
+    background: url(img/testimonial.png);
+    background-position: center;
+}
+
+#experiences .experiences-btn{
+    border-radius: 60px;
+    background: #00baf3;
+    box-shadow: 0px 2px 10px #525252;
+    position: relative;
+}
+
+#experiences .experiences-btn:hover{
+    box-shadow: 0px 1px 10px #525252;
+    top:1px;
+}
+
+#experiences .experiences-btn:active{
+    box-shadow:none;
+    top:2px;
+}
+
+#experiences .price-tag{
+    background: #00baf3;
+    position: absolute;
+    right:0;
+    top:50%;
+    padding-left:10px; 
+}
+
+footer{
+    background: url(img/footer.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bottom-nav li{
+    list-style: none;
+}
+
+.bottom-nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.bottom-nav a:hover{
+    color:#525252;
+}
+
